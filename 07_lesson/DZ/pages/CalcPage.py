@@ -36,8 +36,8 @@ class CalcPage:
             By.XPATH, "//span[@class='btn btn-outline-warning']"
         ).click()
 
-    def waiter(self):
-        waiter = WebDriverWait(self._driver, 50)
+    def waiter(self, wait):
+        waiter = WebDriverWait(self._driver, wait)
         waiter.until(
             EC.text_to_be_present_in_element(
                 (By.XPATH, "//div[@class='top']/div[@class='screen']"), "15"

@@ -16,7 +16,7 @@ def test_form():
     calc_page.push_butn_08()
     calc_page.push_butn_eq()
     # проверка результата
-    calc_page.waiter()
+    calc_page.waiter(50)
     assert "15" in calc_page.result()
     # выход
     browser.quit()

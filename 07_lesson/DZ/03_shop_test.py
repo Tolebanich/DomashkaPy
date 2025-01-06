@@ -1,4 +1,3 @@
-from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
@@ -17,7 +16,6 @@ def test_form():
     shop_page.add_goods()
     # перейти в корзину
     shop_page.checkout()
-    sleep(6)
     # ввести данные
     shop_page.fill_fields("Anatoly", "Fedchenko", "830001")
     # проверить стоимость
