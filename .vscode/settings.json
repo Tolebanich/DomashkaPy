@@ -1,7 +1,7 @@
 {
     "python.REPL.enableREPLSmartSend": false,
     "python.testing.pytestArgs": [
-        "08_lesson/DZ"
+        "08_lesson"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
