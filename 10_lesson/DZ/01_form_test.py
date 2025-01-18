@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from pages.FormPage import FormPage
 import allure
-import pytest
+
 
 @allure.title("Заполнение формы")
 @allure.description("Заполнить форму и проверить результат")

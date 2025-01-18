@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 import allure
 
+
 class LoginPage:
     def __init__(self, browser):
         self._driver = browser

@@ -18,13 +18,13 @@ class CalcPage:
         field.clear()
         field.send_keys("45")
 
-    @allure.step("Нажать кнопку '07'") 
+    @allure.step("Нажать кнопку '07'")
     def push_butn_07(self):
         self._driver.find_element(
             By.XPATH, "//span[@class='btn btn-outline-primary'][1]"
             ).click()
 
-    @allure.step("Нажать кнопку '+'")    
+    @allure.step("Нажать кнопку '+'")
     def push_butn_plus(self):
         self._driver.find_element(
             By.XPATH, "//span[@class='operator btn btn-outline-success'][1]"
@@ -35,6 +35,7 @@ class CalcPage:
         self._driver.find_element(
             By.XPATH, "//span[@class='btn btn-outline-primary'][2]"
             ).click()
+
     @allure.step("Нажать кнопку '='")
     def push_butn_eq(self):
         self._driver.find_element(
