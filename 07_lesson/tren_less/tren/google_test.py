@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from tren_less.tren.pages.MainPage import GoogleMainPage
+from tren.pages.MainPage import GoogleMainPage
 
 @pytest.fixture()
 def driver():
