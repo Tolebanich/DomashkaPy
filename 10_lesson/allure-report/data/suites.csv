@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1293","test_get_companies","10_lesson.tren_less","Sat Jan 18 14:15:12 UZT 2025","passed","Sat Jan 18 14:15:13 UZT 2025","","test_x_clients_db","",""
+"","323","test_get_active_companies","10_lesson.tren_less","Sat Jan 18 14:15:13 UZT 2025","failed","Sat Jan 18 14:15:13 UZT 2025","","test_x_clients_db","",""
+"","584","test_add_new","10_lesson.tren_less","Sat Jan 18 14:15:13 UZT 2025","passed","Sat Jan 18 14:15:14 UZT 2025","","test_x_clients_db","",""
